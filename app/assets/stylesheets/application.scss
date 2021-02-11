@@ -11,3 +11,48 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.btn {
+  background-color: rgb(0, 35, 151);
+  color: rgb(255, 255, 255);
+  font-stretch: wider;
+  border-radius: 50px;
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: bisque;
+  border-style: solid;
+  border-color: dimgrey;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+.flexy {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 0 0 50%;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(226, 177, 116);
+  border-style: solid;
+  border-color: rgb(70, 69, 69);
+  margin-bottom: 5%;
+  color: black;
+  display: grid;
+}
+body {
+  background-color: rgb(230, 191, 164);
+}
+
